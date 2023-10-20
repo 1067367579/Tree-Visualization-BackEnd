@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Tree-Test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="20">
+      <module name="demo01" target="17" />
+      <module name="http-server-demo" target="20" />
+      <module name="maven-project02" target="20" />
+      <module name="maven-projectA" target="20" />
+      <module name="maven-projectB" target="20" />
+      <module name="maven-projectC" target="20" />
+      <module name="mybatis-quickstart" target="17" />
+      <module name="SpringBoot-web-quickstart" target="20" />
+      <module name="springboot-web-req-resp" target="17" />
+      <module name="web-project01" target="20" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot-web-quickstart" options="-parameters" />
+      <module name="Tree-Test" options="-parameters" />
+      <module name="demo01" options="-parameters" />
+      <module name="mybatis-quickstart" options="-parameters" />
+      <module name="springboot-web-req-resp" options="-parameters" />
+    </option>
+  </component>
+</project>
