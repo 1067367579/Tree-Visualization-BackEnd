@@ -1,5 +1,15 @@
 package com.example.treetest.pojo;
 
+class TreeNode {
+    int data;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int data)
+    {
+        this.data = data;
+    }
+}
+
 public class MyTree {
     //根节点字段
     public TreeNode root;
